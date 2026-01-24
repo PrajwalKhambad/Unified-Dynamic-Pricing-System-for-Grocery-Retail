@@ -1,4 +1,5 @@
 import numpy as np
+
 class PerishablePricingEnv:
     def __init__(self, product, price_elasticity, expiry_sensitivity, 
                  initial_inventory=100, lambda_waste=5.0):
